@@ -887,9 +887,9 @@ statue.html
 
 # OUTPUT
 **mycity map**
- 
- <img width="1920" height="1080" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/acecca19-f035-4a13-ad7f-658bbc6ebe9f" />
- 
+
+<img width="1920" height="1021" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/38cbf28e-03c7-4c54-a122-56975e0c46af" />
+
 **temple output**
 
 <img width="1911" height="988" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/ea117a06-5226-44ea-aa43-0863c4089078" />
