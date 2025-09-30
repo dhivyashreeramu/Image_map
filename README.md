@@ -31,7 +31,7 @@ map.html
 </head>
 <body>
 <h1 align="center">
-<font color="red"><b>Gingee</b></font>
+<font color="red"><b>THIRUVERKADU</b></font>
 </h1>
 <h3 align="center">
 <font color="blue"><b>DHIVYASHREE .R (25016639)</b></font>
