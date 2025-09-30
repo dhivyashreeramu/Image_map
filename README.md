@@ -1,5 +1,5 @@
 # Ex04 Places Around Me
-# Date:30.09.2025
+# Date:30.09,2025
 # AIM
 To develop a website to display details about the places around my house.
 
@@ -22,16 +22,16 @@ Write HTML programs for all the regions identified.
 ## STEP 6
 Execute the programs and publish them.
 
-# CODE
+# CODE:
+my city 
 ```
-map.html
- <html>
+<html>
 <head>
 <title>My City</title>
 </head>
 <body>
 <h1 align="center">
-<font color="red"><b>THIRUVERKADU</b></font>
+<font color="red"><b>Gingee</b></font>
 </h1>
 <h3 align="center">
 <font color="blue"><b>DHIVYASHREE .R (25016639)</b></font>
@@ -49,7 +49,7 @@ map.html
 </body>
 </html>
 ```
-temple.html
+temple .html
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -126,7 +126,6 @@ temple.html
 
 </body>
 </html>
-
 ```
 lake.html
 ```
@@ -343,7 +342,7 @@ garden.html
 </body>
 </html>
 ```
-statue.html
+statue .html
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -435,31 +434,22 @@ statue.html
 ```
 
 # OUTPUT
-**mycity map**
-
-<img width="1913" height="1031" alt="Screenshot (30)-Dhivya" src="https://github.com/user-attachments/assets/3f78f583-0dd3-47f1-a585-0f0f5f70c983" />
-
-
-**temple output**
-
-<img width="1920" height="1024" alt="Screenshot (31)" src="https://github.com/user-attachments/assets/24a7a525-f12f-48dc-b13d-c3b8d8232c11" />
+mycity
+![my city](<Screenshot (30)-Dhivya.png>)
 
 
-**lake output**
-
-<img width="1915" height="1024" alt="Screenshot (20)" src="https://github.com/user-attachments/assets/df7f2808-3f31-4088-a1a5-6e21e940f5b8" />
-
-**garden output**
+temple output
+![temple](<Screenshot (31).png>)
 
 
-<img width="1920" height="1017" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/e809eadb-18f8-4808-8323-43c96d429058" />
+lake output
+![lake](<Screenshot (20).png>)
 
-**statue output**
+garden output
+![garden](<Screenshot (21).png>)
 
-
-<img width="1920" height="1028" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/62c23025-5ef4-4c77-9c18-3036ca1231af" />
-
-
+statue output
+![statue](<Screenshot (22).png>)
 
 # RESULT
 The program for implementing image maps using HTML is executed successfully.

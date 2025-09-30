@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dr. B.R. Ambedkar Statue - Thiruverkadu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Merriweather', serif; }
+    body {
+      background: linear-gradient(135deg, #283e51, #485563);
+      color: #f0f0f0; line-height: 1.7;
+      display: flex; flex-direction: column; min-height: 100vh;
+    }
+    body::before {
+      content: ""; position: fixed; inset: 0;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Statue_of_Dr_Babasaheb_Ambedkar_at_Bhim_Gaatha_Park%2C_Bengaluru_02.JPG/1280px-Statue_of_Dr_Babasaheb_Ambedkar_at_Bhim_Gaatha_Park%2C_Bengaluru_02.JPG') no-repeat center/cover;
+      opacity: 0.12; z-index: -1; filter: grayscale(40%) brightness(70%);
+    }
+    header {
+      background: rgba(40, 62, 81, 0.85); padding: 25px 15px;
+      text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+    header h1 {
+      font-size: 2.5rem; color: #ffde59;
+      text-shadow: 1px 1px 5px #000;
+    }
+    main {
+      max-width: 850px; margin: 40px auto; padding: 30px;
+      background: rgba(40, 62, 81, 0.9); border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.7);
+    }
+    .image-container { text-align: center; margin-bottom: 25px; }
+    .image-container img {
+      width: 100%; max-width: 680px;
+      border-radius: 12px; border: 3px solid #ffd54f;
+      box-shadow: 0 10px 25px #ffde59aa;
+      transition: 0.3s; cursor: pointer;
+    }
+    .image-container img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 14px 35px #ffde59;
+    }
+    h2 {
+      color: #ffd54f; font-size: 2rem;
+      border-bottom: 2px solid #ffde59;
+      margin-bottom: 20px; padding-bottom: 8px;
+    }
+    p {
+      margin-bottom: 20px; text-align: justify;
+      font-size: 1.1rem; color: #f0f0f0cc;
+    }
+    footer {
+      background: #1c2b38; color: #ffde59;
+      text-align: center; padding: 15px; font-size: 0.95rem;
+      margin-top: auto; box-shadow: inset 0 3px 10px #000;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.8rem; }
+      main { margin: 25px 15px; padding: 20px; }
+      h2 { font-size: 1.5rem; }
+      p { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Dr. B.R. Ambedkar Statue - Thiruverkadu</h1>
+  </header>
+
+  <main>
+    <div class="image-container">
+      <img src="dr.ambedhkar.jpeg" alt="Dr. B.R. Ambedkar Statue in Thiruverkadu" loading="lazy" />
+    </div>
+
+    <h2>History of the Statue</h2>
+    <p>The statue of Dr. B.R. Ambedkar in Thiruverkadu is a powerful symbol of social justice, honoring the architect of the Indian Constitution and a tireless advocate for the rights of marginalized communities.</p>
+    <p>It commemorates his legacy, values of equality, and serves as a gathering place for events and reflection. The artistic design reflects his dignity and stands as an inspiration to all.</p>
+  </main>
+
+  <footer>
+    &copy; 2025 Dr. B.R. Ambedkar Statue, Thiruverkadu. All rights reserved.
+  </footer>
+
+</body>
+</html>

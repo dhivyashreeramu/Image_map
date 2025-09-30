@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Koladi Lake</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background: #e6f0ff;
+      color: #003366;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: linear-gradient(90deg, #1e40af, #3b82f6);
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0, 60, 130, 0.4);
+      color: #fff;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    main {
+      flex-grow: 1;
+      max-width: 900px;
+      margin: 40px auto;
+      background: #ffffffcc;
+      border-radius: 20px;
+      padding: 30px 40px;
+      box-shadow: 0 8px 30px rgba(59, 130, 246, 0.3);
+      animation: fadeIn 1.5s ease forwards;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    h2 {
+      color: #1e3a8a;
+      font-size: 2.8rem;
+      margin-bottom: 25px;
+      border-bottom: 3px solid #3b82f6;
+      padding-bottom: 10px;
+      letter-spacing: 1.2px;
+    }
+
+    p {
+      font-size: 1.15rem;
+      color: #1e3a8a;
+      margin-bottom: 28px;
+      text-align: justify;
+      line-height: 1.8;
+    }
+
+    .image-container {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .image-container img {
+      width: 100%;
+      max-width: 700px;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(59, 130, 246, 0.4);
+      transition: transform 0.4s ease;
+      cursor: pointer;
+    }
+
+    .image-container img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 14px 40px rgba(59, 130, 246, 0.7);
+    }
+
+    footer {
+      background: #1e40af;
+      color: #fff;
+      text-align: center;
+      padding: 18px 15px;
+      font-size: 1rem;
+      margin-top: auto;
+      letter-spacing: 0.05em;
+      box-shadow: inset 0 4px 15px rgba(0, 0, 80, 0.7);
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      main {
+        margin: 30px 15px;
+        padding: 25px 20px;
+      }
+
+      h2 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+</body>
+</html>
