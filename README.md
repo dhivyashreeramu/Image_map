@@ -442,11 +442,10 @@ statue.html
 
 **temple output**
 
+<img width="1920" height="1024" alt="Screenshot (31)" src="https://github.com/user-attachments/assets/24a7a525-f12f-48dc-b13d-c3b8d8232c11" />
 
-<img width="1911" height="988" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/ea117a06-5226-44ea-aa43-0863c4089078" />
 
 **lake output**
-
 
 <img width="1915" height="1024" alt="Screenshot (20)" src="https://github.com/user-attachments/assets/df7f2808-3f31-4088-a1a5-6e21e940f5b8" />
 
