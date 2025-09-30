@@ -444,7 +444,6 @@ statue.html
 
 
 <img width="1911" height="988" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/ea117a06-5226-44ea-aa43-0863c4089078" />
-<img width="1920" height="1031" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/d358e2be-a971-487e-a454-39ccbb212def" />
 
 **lake output**
 
