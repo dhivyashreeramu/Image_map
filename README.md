@@ -433,6 +433,87 @@ statue.html
 </body>
 </html>
 ```
+gpn palace.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GPN Palace</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #e6f0ff;
+    }
+
+    header {
+      background: linear-gradient(90deg, #0a3d62, #3c6382);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .card {
+      background-color: white;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #0a3d62;
+      margin-bottom: 10px;
+    }
+
+    p {
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    hr {
+      border: none;
+      height: 1px;
+      background-color: #ccc;
+      margin: 15px 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>GPN Palace</header>
+
+<div class="card">
+  <img src="gpn.webp" alt="GPN Palace Image">
+
+  <h2>About GPN Palace</h2>
+  <p>
+    GPN Palace is a spacious and elegant marriage hall located in Thiruverkadu, Chennai. Known for its large seating capacity and premium facilities, it’s a preferred venue for weddings, receptions, and other grand celebrations.
+  </p>
+
+  <hr>
+
+  <h2>History</h2>
+  <p>
+    Established over a decade ago, GPN Palace was designed to bring together tradition and modern comfort. Over the years, it has hosted hundreds of joyful occasions and continues to be a beloved destination for families and communities across Chennai.
+  </p>
+</div>
+
+</body>
+</html>
+```
+
 
 # OUTPUT
 **mycity map**
@@ -460,6 +541,9 @@ statue.html
 <img width="1920" height="1028" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/62c23025-5ef4-4c77-9c18-3036ca1231af" />
 
 
+**gpn palace**
+
+<img width="1920" height="1037" alt="Screenshot (38)" src="https://github.com/user-attachments/assets/9b39e406-4a03-4ece-ab3e-f5ae9ee181ae" />
 
 # RESULT
 The program for implementing image maps using HTML is executed successfully.
