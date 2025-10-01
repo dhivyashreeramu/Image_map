@@ -51,6 +51,8 @@ my city
 ```
 temple .html
 ```
+temple.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -135,130 +137,80 @@ lake.html
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Koladi Lake</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: 'Roboto', sans-serif;
-    }
-
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif; }
     body {
-      background: #e6f0ff;
-      color: #003366;
-      line-height: 1.6;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
+      background: #e6f0ff; color: #003366; line-height: 1.6;
+      min-height: 100vh; display: flex; flex-direction: column;
     }
-
-    header {
-      background: linear-gradient(90deg, #1e40af, #3b82f6);
-      padding: 30px 20px;
-      text-align: center;
-      box-shadow: 0 4px 15px rgba(0, 60, 130, 0.4);
-      color: #fff;
+    header, footer {
+      background: #1e40af; color: #fff; text-align: center;
+      padding: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     }
-
-    header h1 {
-      font-size: 3rem;
-      letter-spacing: 2px;
-      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
-    }
-
+    header h1 { font-size: 2.5rem; }
     main {
-      flex-grow: 1;
-      max-width: 900px;
-      margin: 40px auto;
-      background: #ffffffcc;
-      border-radius: 20px;
-      padding: 30px 40px;
-      box-shadow: 0 8px 30px rgba(59, 130, 246, 0.3);
-      animation: fadeIn 1.5s ease forwards;
+      flex: 1; max-width: 800px; margin: 30px auto;
+      background: #fff; padding: 25px; border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
     }
-
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-        transform: translateY(30px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
     h2 {
-      color: #1e3a8a;
-      font-size: 2.8rem;
-      margin-bottom: 25px;
-      border-bottom: 3px solid #3b82f6;
+      font-size: 2rem; margin-bottom: 20px;
+      color: #1e3a8a; border-bottom: 2px solid #3b82f6;
       padding-bottom: 10px;
-      letter-spacing: 1.2px;
     }
-
     p {
-      font-size: 1.15rem;
-      color: #1e3a8a;
-      margin-bottom: 28px;
-      text-align: justify;
-      line-height: 1.8;
+      margin-bottom: 20px; font-size: 1.1rem;
+      text-align: justify; color: #1e3a8a;
     }
-
     .image-container {
-      text-align: center;
-      margin-bottom: 35px;
+      text-align: center; margin-bottom: 25px;
     }
-
-    .image-container img {
-      width: 100%;
-      max-width: 700px;
-      height: auto;
-      border-radius: 15px;
-      box-shadow: 0 10px 25px rgba(59, 130, 246, 0.4);
-      transition: transform 0.4s ease;
-      cursor: pointer;
+    img {
+      max-width: 100%; border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease;
     }
-
-    .image-container img:hover {
-      transform: scale(1.05);
-      box-shadow: 0 14px 40px rgba(59, 130, 246, 0.7);
-    }
-
-    footer {
-      background: #1e40af;
-      color: #fff;
-      text-align: center;
-      padding: 18px 15px;
-      font-size: 1rem;
-      margin-top: auto;
-      letter-spacing: 0.05em;
-      box-shadow: inset 0 4px 15px rgba(0, 0, 80, 0.7);
-    }
-
-    /* Responsive */
+    img:hover { transform: scale(1.03); }
+    footer { font-size: 0.9rem; }
     @media (max-width: 600px) {
-      header h1 {
-        font-size: 2.2rem;
-      }
-
-      main {
-        margin: 30px 15px;
-        padding: 25px 20px;
-      }
-
-      h2 {
-        font-size: 2rem;
-      }
-
-      p {
-        font-size: 1rem;
-      }
+      header h1 { font-size: 1.8rem; }
+      h2 { font-size: 1.5rem; }
+      p { font-size: 1rem; }
     }
   </style>
 </head>
+<body>
+
+  <header>
+    <h1>Koladi Lake</h1>
+  </header>
+
+  <main>
+    <div class="image-container">
+      <img 
+        src="lake.jpg"
+        alt="Koladi Lake" 
+        loading="lazy"
+      />
+    </div>
+
+    <h2>History of Koladi Lake</h2>
+    <p>
+      Koladi Lake, located on the outskirts of Mumbai, India, is a serene and picturesque water body surrounded by lush greenery and hills. Historically, it served as an important water source for the local communities and played a vital role in sustaining the ecology of the region. Over the years, the lake has become a popular spot for nature lovers and trekkers looking for a peaceful escape from the bustling city.
+    </p>
+    <p>
+      The lake's natural beauty is complemented by the surrounding Sahyadri hills, which provide breathtaking views and a rich habitat for various species of flora and fauna. Efforts have been made in recent years to preserve the lake’s pristine environment, balancing tourism with ecological conservation. Visitors are drawn not only by the calm waters but also by the hiking trails and picnic spots nearby.
+    </p>
+    <p>
+      Koladi Lake holds cultural significance as well, with occasional local festivals celebrating the natural bounty of the area. The lake remains a symbol of Mumbai's harmonious coexistence of urban life and nature’s tranquility.
+    </p>
+  </main>
+
+  <footer>
+    &copy; 2025 Koladi Lake. All rights reserved.
+  </footer>
+
 </body>
 </html>
 ```
@@ -342,8 +294,9 @@ garden.html
 </body>
 </html>
 ```
-statue .html
 ```
+statue.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -432,24 +385,95 @@ statue .html
 </body>
 </html>
 ```
+gnp palace.html
+````
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GPN Palace</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #e6f0ff;
+    }
+
+    header {
+      background: linear-gradient(90deg, #0a3d62, #3c6382);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .card {
+      background-color: white;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #0a3d62;
+      margin-bottom: 10px;
+    }
+
+    p {
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    hr {
+      border: none;
+      height: 1px;
+      background-color: #ccc;
+      margin: 15px 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>GPN Palace</header>
+
+<div class="card">
+  <img src="gpn.webp" alt="GPN Palace Image">
+
+  <h2>About GPN Palace</h2>
+  <p>
+    GPN Palace is a spacious and elegant marriage hall located in Thiruverkadu, Chennai. Known for its large seating capacity and premium facilities, it’s a preferred venue for weddings, receptions, and other grand celebrations.
+  </p>
+
+  <hr>
+
+  <h2>History</h2>
+  <p>
+    Established over a decade ago, GPN Palace was designed to bring together tradition and modern comfort. Over the years, it has hosted hundreds of joyful occasions and continues to be a beloved destination for families and communities across Chennai.
+  </p>
+</div>
+
+</body>
+</html>
+```
 
 # OUTPUT
-mycity
-![my city](<Screenshot (30)-Dhivya.png>)
+![![temple output](<Screenshot (18).png>)]
+![temple output2](<Screenshot (19).png>)
+![lake output](<Screenshot (20).png>)
+![garden output](<Screenshot (21).png>)
+![statue output](<Screenshot (22).png>)
+![gpn palace](<Screenshot (38).png>)
 
-
-temple output
-![temple](<Screenshot (31).png>)
-
-
-lake output
-![lake](<Screenshot (20).png>)
-
-garden output
-![garden](<Screenshot (21).png>)
-
-statue output
-![statue](<Screenshot (22).png>)
 
 # RESULT
 The program for implementing image maps using HTML is executed successfully.
