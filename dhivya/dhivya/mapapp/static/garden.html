@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RMK Cholan Garden</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
+    body {
+      background: #e6f4ea; color: #1b3a2d;
+      display: flex; flex-direction: column; min-height: 100vh;
+    }
+    header, footer {
+      background: #2a7a3d; color: #fff; text-align: center;
+      padding: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    header h1 { font-size: 2.5rem; }
+    main {
+      flex: 1; max-width: 800px; margin: 30px auto;
+      background: #fff; padding: 25px; border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    }
+    h2 {
+      font-size: 2rem; color: #2a7a3d;
+      margin-bottom: 20px; border-bottom: 2px solid #7ed56f;
+      padding-bottom: 10px;
+    }
+    p {
+      font-size: 1.1rem; margin-bottom: 20px;
+      text-align: justify; color: #1b3a2d;
+    }
+    .image-container {
+      text-align: center; margin-bottom: 25px;
+    }
+    img {
+      max-width: 100%; border-radius: 10px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease;
+    }
+    img:hover { transform: scale(1.03); }
+    footer { font-size: 0.9rem; }
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      h2 { font-size: 1.6rem; }
+      p { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>RMK Cholan Garden</h1>
+  </header>
+
+  <main>
+    <div class="image-container">
+      <img src="garden.jpg" alt="RMK Cholan Garden" loading="lazy" />
+    </div>
+    <h2>About the Garden</h2>
+    <p>
+      Located at RMK Engineering College, the Cholan Garden is a peaceful green space for students and visitors to relax and recharge.
+    </p>
+    <p>
+      It features native plants, clean pathways, and quiet seating areas — a symbol of harmony between nature and education.
+    </p>
+    <p>
+      The garden also hosts cultural events and outdoor activities, promoting both sustainability and student well-being.
+    </p>
+  </main>
+
+  <footer>
+    &copy; 2025 RMK Cholan Garden. All rights reserved.
+  </footer>
+
+</body>
+</html>
